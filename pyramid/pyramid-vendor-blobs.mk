@@ -77,4 +77,5 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/pyramid/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/pyramid/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so
+  vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+  vendor/htc/pyramid/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so
