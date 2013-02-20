@@ -1,5 +1,4 @@
 # Copyright (C) 2011 The CyanogenMod Project
-# DKOSP
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,17 +21,18 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 
-
 PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/pyramid/proprietary/etc/vpimg:system/etc/vpimg \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
+  vendor/htc/pyramid/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/pyramid/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+  vendor/htc/pyramid/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libgemini.so:system/lib/libgemini.so \
   vendor/htc/pyramid/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/pyramid/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+  vendor/htc/pyramid/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
   vendor/htc/pyramid/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/pyramid/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/pyramid/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
@@ -77,5 +78,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/pyramid/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/pyramid/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-  vendor/htc/pyramid/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so
+  vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so
